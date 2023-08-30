@@ -107,10 +107,9 @@ button{
 
 .topMusica{
 
-    position: absolute;
-    left:20px;
-    top: -20px;
     display: flex;
+    position: relative;
+    top: 80px;
     flex-direction: row;
     justify-content: center;
     text-align: center;
@@ -120,10 +119,36 @@ button{
 .musicas{
 
     display: flex;
-    flex-wrap: wrap;
-    margin: 20% 30px;
 
 }
+
+
+.buttonPlay{
+
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    left: 120px;
+
+}
+
+.divisor{
+
+    position: absolute;
+    width: 1869px;
+    left: -1px;
+    top: 300px;
+    border: solid rgba(255, 255, 255, 0.198) 1px;
+
+}
+
+.buttonPlay img{
+
+    width: 40px;
+
+}
+
+
 
 .weCanGoHome{
 
@@ -266,3 +291,43 @@ button{
 
 
 
+.youreSomebodyElse{
+
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+#titleYoureSomebodyElse{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+
+}
+
+
+.losttoitNow{
+
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+#titleLosttoitNow{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+
+}
