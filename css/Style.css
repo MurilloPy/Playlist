@@ -36,9 +36,24 @@ header{
 
 }
 
+.searchMusic{
+
+    border: none;
+
+}
+
+button{
+
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+
+}
+
 .menu a{
     position: relative;
     top: 24px;
+    right: 440px;
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -92,11 +107,162 @@ header{
 
 .topMusica{
 
+    position: absolute;
+    left:20px;
+    top: -20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: red;
-    width: 1857px;
-    height: 80px;
     text-align: center;
+
 }
+
+.musicas{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20% 30px;
+
+}
+
+.weCanGoHome{
+
+    
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.weCanGoHome img{
+
+    border-radius: 10px;
+
+}
+
+#titleWeCanGoHome{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+    font-weight: 100;
+
+}
+
+.lowTide{
+
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.lowTide img{
+
+    border-radius: 10px;
+
+}
+
+#titleWeCanGoHome{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+
+}
+
+#titlelowTide{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+
+}
+
+.inThisShirt{
+
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.inThisShirt img{
+
+    border-radius: 10px;
+
+}
+
+#titleInThisShirt{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+
+}
+
+
+.iLoveOurHome{
+
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.iLoveOurHome img{
+
+    border-radius: 10px;
+
+}
+
+#titleIloveOurHome{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+
+}
+
+.wishYouTheBest{
+
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.wishYouTheBest img{
+
+    border-radius: 10px;
+
+}
+
+#titleWishYouTheBest{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+
+}
+
+
+
